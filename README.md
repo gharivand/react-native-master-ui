@@ -36,7 +36,7 @@ export default class App extends Component {
 }
 ```
 
-![Accordion](https://github.com/gharivand/react-native-master-ui/screenshots/Accordion.png)
+![Accordion](https://github.com/gharivand/react-native-master-ui/blob/master/screenshots/Accordion.png)
 
 ## Accordion Props
 
@@ -88,7 +88,7 @@ export default class App extends Component {
 }
 ```
 
-![Buttons](https://github.com/gharivand/react-native-master-ui/screenshots/Buttons.png)
+![Buttons](https://github.com/gharivand/react-native-master-ui/blob/master/screenshots/Buttons.png)
 
 
 ## Button Props
@@ -138,7 +138,7 @@ export default class App extends Component {
 ```
 
 
-![CardView](https://github.com/gharivand/react-native-master-ui/screenshots/CardView.png)
+![CardView](https://github.com/gharivand/react-native-master-ui/blob/master/screenshots/CardView.png)
 
 
 ## CardView Props
@@ -205,7 +205,7 @@ export default class App extends Component {
 ```
 
 
-![ListItem](https://github.com/gharivand/react-native-master-ui/screenshots/ListItem.png)
+![ListItem](https://github.com/gharivand/react-native-master-ui/blob/master/screenshots/ListItem.png)
 
 
 ## ListItem Props
@@ -266,7 +266,7 @@ export default class App extends Component {
 ```
 
 
-![StarRate](https://github.com/gharivand/react-native-master-ui/screenshots/StarRate.png)
+![StarRate](https://github.com/gharivand/react-native-master-ui/blob/master/screenshots/StarRate.png)
 
 
 ## StarsRate Props
