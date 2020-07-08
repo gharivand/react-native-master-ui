@@ -13,7 +13,8 @@ const Button = ({onPress, title, isLoading, disable, style, textStyle, indicator
         >
             {isLoading ?
                 <ActivityIndicator
-                    color={indicatorColor ? indicatorColor : {color: colorPicker(status).textColor}} size={'small'}/>
+                    color={indicatorColor ? indicatorColor :
+                        isLinear ? colorPicker(status).textColor : '#fff'} size={'small'}/>
                 :
                 <Text style={[styles.textStyle, {
                     color: isLinear ? colorPicker(status).textColor : '#fff',
@@ -35,6 +36,8 @@ function colorPicker(status) {
             return {color: '#FFB700', opacityColor: 'rgba(255,183,0,0.3)', textColor: '#c68800'};
         case 'danger':
             return {color: '#FF002E', opacityColor: 'rgba(255,0,46,0.3)', textColor: '#dd002c'};
+        case 'aqua':
+            return {color: '#00bcd4', opacityColor: 'rgba(0,188,212,0.3)', textColor: '#0295a7'};
         default :
             return {color: '#A3A3A3', opacityColor: 'rgba(163,163,163,0.3)', textColor: '#666666'};
     }

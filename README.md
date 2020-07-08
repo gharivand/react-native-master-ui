@@ -7,14 +7,24 @@ UI for using in your react native projects (Android and IOS).
 ## Install
 
 ```shell
-npm i -S react-native-master-ui
+npm i react-native-master-ui
+```
+ or
+ 
+```shell
+yarn add react-native-master-ui
 ```
 
 Then
 
 ```shell
-npm i -S react-native-vector-icons
-react-native link react-native-vector-icons
+npm i react-native-vector-icons
+react-native link
+```
+ or
+```shell
+yarn add react-native-vector-icons
+react-native link
 ```
 
 ## Simple Usage
@@ -36,7 +46,7 @@ export default class App extends Component {
 }
 ```
 
-![Accordion](https://github.com/gharivand/react-native-master-ui/blob/master/screenshots/Accordion.png)
+![Accordion](https://raw.githubusercontent.com/gharivand/react-native-master-ui/master/screenshots/Accordion.png)
 
 ## Accordion Props
 
@@ -88,7 +98,7 @@ export default class App extends Component {
 }
 ```
 
-![Buttons](https://github.com/gharivand/react-native-master-ui/blob/master/screenshots/Buttons.png)
+![Buttons](https://raw.githubusercontent.com/gharivand/react-native-master-ui/master/screenshots/Buttons.png)
 
 
 ## Button Props
@@ -98,7 +108,7 @@ Prop                  | Type         | Default                   | Description
 onPress               | function()   | undefine                  | The job you want to happen after click.
 title                 | string       | null                      | Title on the Button.
 textStyle             | object       | {}                        | Add your custom style for title.
-status                | string       | null                      | Can be one of: "info","info2","success","warning","danger"
+status                | string       | null                      | Can be one of: "info","info2","success","warning","danger","aqua"
 style                 | object       | {}                        | Add your custom style for button.
 isLinear              | isLinear     | false                     | Show button with border and opacity background color.
 disable               | boolean      | false                     | Button not working when click if disable is true.
@@ -138,7 +148,7 @@ export default class App extends Component {
 ```
 
 
-![CardView](https://github.com/gharivand/react-native-master-ui/blob/master/screenshots/CardView.png)
+![CardView](https://raw.githubusercontent.com/gharivand/react-native-master-ui/master/screenshots/CardView.png)
 
 
 ## CardView Props
@@ -205,7 +215,7 @@ export default class App extends Component {
 ```
 
 
-![ListItem](https://github.com/gharivand/react-native-master-ui/blob/master/screenshots/ListItem.png)
+![ListItem](https://raw.githubusercontent.com/gharivand/react-native-master-ui/master/screenshots/ListItem.png)
 
 
 ## ListItem Props
@@ -266,7 +276,7 @@ export default class App extends Component {
 ```
 
 
-![StarRate](https://github.com/gharivand/react-native-master-ui/blob/master/screenshots/StarRate.png)
+![StarRate](https://raw.githubusercontent.com/gharivand/react-native-master-ui/master/screenshots/StarRate.png)
 
 
 ## StarsRate Props
