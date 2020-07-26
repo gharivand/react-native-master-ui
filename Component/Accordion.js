@@ -10,12 +10,12 @@ const Accordion = ({headerStyle, isRtl, iconColor, title, titleStyle, containerS
             <TouchableOpacity
                 activeOpacity={0.8}
                 onPress={() => setShow(!show)}
-                style={[styles.headerStyle, isCard ? {elevation: 2} : {}, headerStyle,
+                style={[styles.headerStyle, isCard ? styles.shadow : {}, headerStyle,
                     isRtl ? {flexDirection: 'row-reverse'} : {}]}
             >
                 <Text style={[styles.titleStyle, titleStyle, isRtl ? {textAlign: 'right'} : {}]}>{title}</Text>
-                <Icon color={iconColor ? iconColor : '#404040'} size={16}
-                      name={show ? 'ios-arrow-up' : 'ios-arrow-down'}/>
+                <Icon color={iconColor ? iconColor : '#404040'} size={18}
+                      name={show ? 'chevron-up' : 'chevron-down'}/>
             </TouchableOpacity>
             {show ? children : null}
         </View>
@@ -30,7 +30,24 @@ const styles = StyleSheet.create({
     isCardView: {
         width: Dimensions.get('screen').width - 10,
         marginHorizontal: 5,
-        elevation: 1
+        elevation: 1,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 1,
+        },
+        shadowOpacity: 0.18,
+        shadowRadius: 1
+    },
+    shadow: {
+        elevation: 1,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 1,
+        },
+        shadowOpacity: 0.18,
+        shadowRadius: 1
     },
     notCardView: {
         width: '100%',
